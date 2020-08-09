@@ -4,8 +4,8 @@
     - docker::images
 
  docker::images::images:
-  ubuntu:
-    image_tag: 'precise'
+  - ubuntu:
+      image_tag: 'precise'
 
 ntp::servers:
   - 0.us.pool.ntp.org
