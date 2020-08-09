@@ -1,7 +1,15 @@
 forge 'https://forge.puppet.com'
 
 # Modules from the Puppet Forge
-mod 'puppetlabs-docker', '3.10.2'
+mod 'puppetlabs/docker', '3.10.2'
+mod 'puppetlabs-apt',  '7.4.2'
+mod 'puppetlabs-translate', '2.2.0'
+mod 'puppetlabs-powershell', '3.0.1'
+mod 'puppetlabs-pwshlib', '0.4.1'
+mod 'puppetlabs-reboot', '2.4.0'
+mod 'puppetlabs-stdlib', '6.3.0'
+
+
 mod 'puppetlabs/ntp', '4.1.0'
 mod 'puppetlabs/stdlib'
 # Versions should be updated to be the latest at the time you start
