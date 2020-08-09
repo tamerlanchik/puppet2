@@ -1,5 +1,9 @@
-hiera_include('classes')
+# hiera_include('classes')
 
 node default {
-  Notice("Hello")
+  Noticedwe("Hello")
+  file { 'etc/dfferf.erf':
+    ensure => file,
+    content => "Fuck all!",
+  }
 }
