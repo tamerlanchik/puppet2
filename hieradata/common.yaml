@@ -3,7 +3,7 @@ classes:
   - 'profile::base'
   - docker::images
 
- docker::images:
+docker::images:
   images:
     - ubuntu:
         image_tag: 'precise'
