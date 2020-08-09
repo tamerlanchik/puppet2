@@ -1,7 +1,7 @@
 ---
-classes:
- - 'profile::base'
- - docker::images
+  classes:
+    - 'profile::base'
+    - docker::images
 
  docker::images::images:
   ubuntu:
