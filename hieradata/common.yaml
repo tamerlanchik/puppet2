@@ -1,11 +1,12 @@
 ---
-  classes:
-    - 'profile::base'
-    - docker::images
+classes:
+  - 'profile::base'
+  - docker::images
 
- docker::images::images:
-  - ubuntu:
-      image_tag: 'precise'
+ docker::images:
+  images:
+    - ubuntu:
+        image_tag: 'precise'
 
 ntp::servers:
   - 0.us.pool.ntp.org
