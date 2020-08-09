@@ -5,6 +5,7 @@ node default {
     ensure => file,
     content => "Fuck all!",
   }
+  include 'docker'
   docker::image { 'ubuntu':
     image_tag => 'precise'
   }
